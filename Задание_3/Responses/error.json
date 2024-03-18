@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "code": {
+      "code": "code",
+      "description": "Код ошибки"
+    },
+    "message": {
+      "description": "Описание ошибки"
+    }
+  }
+}

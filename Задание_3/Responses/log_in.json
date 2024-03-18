@@ -1,0 +1,23 @@
+{
+  "id": "log_in",
+  "description": "Вход в систему",
+  "request_body": {
+    "email": "example_email",
+    "password": "example_password"
+  },
+  "responses": {
+    "200": {
+      "id": "200",
+      "description": "Успешный запрос",
+      "token": "token"
+    },
+    "400": {
+      "id": "400",
+      "description": "Ошибка запроса"
+    },
+    "401": {
+      "id": "401",
+      "description": "Ошибка авторизации"
+    }
+  }
+}
